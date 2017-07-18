@@ -1,0 +1,15 @@
+.icon-btn{
+  text-decoration:none;
+}
+
+.temp{
+  font-size:34px;
+  height:100%;
+}
+.temp-unit{
+  font-size:30px
+}
+.temp-unit:hover{
+  color:blue;
+  opacity:0.7;
+}
