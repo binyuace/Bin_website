@@ -1,0 +1,39 @@
+*{
+  /*border:1px solid black;*/
+}
+.ra  {
+  font-size:150%;
+  color:rgba(200,0,0,0.6); 
+}
+.random:hover {
+  text-decoration:none;
+}
+.bg-black{
+  background-color:rgba(0,0,0,0.9);
+  padding-bottom:50px;
+}
+.fa-search{
+  background-color:rgba(0,0,0,0);
+  border:none;
+} 
+.fa-search:hover{
+  color:rgba(200,0,0,0.6);
+  cursor:pointer;
+}
+.wiki{
+  border:5px solid blue;
+  border-radius:5px;
+  font-size:20px;
+    padding:5px;
+  background-color:rgba(0,0,0,0);
+  color:lightblue;
+}
+.wiki:focus{
+  background-color:rgba(0,0,0,0.2);
+}
+.result {
+  text-decoration:none;
+}
+.fa-search:active{
+  border:none;
+}
