@@ -1,0 +1,81 @@
+
+* {
+	border:0px solid blue;
+
+}
+.bg-black {
+	background-color: black;
+}
+h1 {
+	color: white;
+	font-size: 60px;
+}
+.grid {
+	height:130px;
+	width:130px;
+	background-color: black;
+	overflow: hidden;
+	border:5px solid grey;
+	margin:auto;
+	color:white;
+	font-size: 80px;
+	text-align: center;
+
+}
+.game-board {
+	margin-top:10px;
+	
+}
+
+.game-board .col-md-4 {
+	background-color: black;
+	padding: 0;
+}
+.btn-container {
+	margin-top: 300px;
+}
+.btn-success {
+	width: 100px;
+	height:40px;
+	display: inline-block;
+	margin:auto;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+.btn-danger {
+	width: 100px;
+	height:40px;
+	display: none;
+	margin-top: 200px;
+	margin-left: 100px;
+	border-radius: 10px;
+
+}
+.btn-info {
+	width:100px;
+	height:40px;
+	display: inline-block;
+	margin:auto;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+#startPage {
+	position: absolute;
+	background-color: rgba(204, 102, 0,0);
+	height:500px;
+	width:440px;
+	top:-10px;
+	left:-30px;
+	z-index: 1;
+	display: none;
+}
+#modelPage {
+	position: absolute;
+	background-color: rgba(204, 102, 0,0);
+	height:500px;
+	width:440px;
+	top:-10px;
+	left:-30px;
+	z-index: 1;
+}
+
