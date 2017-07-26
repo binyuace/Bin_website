@@ -1,0 +1,122 @@
+
+* {
+	border:0px solid blue;
+	
+	font-family: aria;
+}
+
+.bg-black {
+	background-color: rgba(0,0,0,0.8);
+	min-width: 80%;
+	color: red;
+}
+.working {
+	width:500px;
+	height:500px;
+	min-width: 500px;
+	min-height: 500px;
+	margin:auto;
+	position: relative;
+}
+
+.color {
+
+	height: 250px;
+	width:250px;
+	border:20px solid black;
+	opacity: 0.9;
+	
+}
+.color:hover{
+	cursor: pointer;
+
+}
+
+#green {
+	background-color: darkgreen;
+	border-radius: 100% 0 0 0;
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+	float:left;
+}
+#red {
+	background-color: darkred;
+	border-radius: 0 250px 0 0;
+	border-bottom: 10px solid black;
+	border-left: 10px solid black;
+	float: right;
+
+}
+#yellow {
+	background-color: gold;
+	border-radius: 0 0 0 250px;
+	border-top: 10px solid black;
+	border-right: 10px solid black;
+	float: left;
+
+}
+#blue {
+	background-color: darkblue;
+	border-radius: 0 0 250px 0;
+	border-top: 10px solid black;
+	border-left: 10px solid black;
+	float:right;
+}
+.center {
+	background-color: rgb(200,200,200);
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	z-index: 1;
+	border:10px solid black;
+	top:149px;
+	left:147px;
+}
+
+.btn {
+	border-radius: 100%;
+	width:25px;
+	height:25px;
+	outline: 0px;
+}
+.btn:focus{
+	outline: 0;
+
+  	box-shadow: none;
+}
+.firstbtn , .secondbtn {
+	display: inline-block;
+	margin-top: 40px;
+	}
+.firstbtn {
+	margin-left: 55px;
+}
+.secondbtn {
+	margin-left: 20px;
+}
+.countboard {
+	width:50px;
+	height: 30px;
+	background-color: red;
+	color: lightblue;
+	border-radius: 5px;
+}
+.countall {
+	margin-left: 67px;	
+
+}
+.textcount{
+	color: red;
+}
+#lose {
+	
+}
+
+
+
+
+
+
+
+
