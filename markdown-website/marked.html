@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <!-- font-awesome -->
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- bootstrap -->
+ <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+ 
+<html>
+<title>Marker</title>
+<style type="text/css">
+#input{
+	border: 3px solid grey;
+}
+#input, #output {
+	font-family: aria;
+	height:100%;	
+	width:100%;
+
+
+	font-size: 20px;
+}
+.col-md-6 {
+	margin-top: 50px;
+	height:300px;
+}
+</style>
+<body>
+<div class='container'>
+<div class='row'>
+	<div class='col-md-6' >
+		<textarea class='form-control' id='input'></textarea> 
+	</div>
+	<div class='col-md-6'>
+		<p id='output'></p>
+	</div>
+</div>
+</div>
+<!-- angularJS -->
+<script src="../angular.min.js"></script>
+<!-- jQuery -->
+<script src="../jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- marked library -->
+<script type="text/javascript" src='../node_modules/marked/marked.min.js'></script>
+<!-- My stylesheet -->
+
+<!-- My javascript -->
+<script type="text/javascript" src='marked.js'></script>
+</body>
+</html>
