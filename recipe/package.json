@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://binyuace.github.io/Bin_website/",
+  "homepage": "https://binyuace.github.io/react-try",
   "devDependencies": {
     "gh-pages": "^1.0.0"
   }
