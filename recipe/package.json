@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://binyuace.github.io/Bin_website/recipet",
+  "homepage": "https://binyuace.github.io/Bin_website/",
   "devDependencies": {
     "gh-pages": "^1.0.0"
   }
